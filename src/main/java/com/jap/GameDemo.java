@@ -7,9 +7,9 @@ public class GameDemo {
         int finalNumber = 0;
         try {
             //write logic
-
+                finalNumber=firstNumber/secondNumber;
             //Handle specific exception
-        }catch (Exception exception){
+        }catch (ArithmeticException exception){
           return exception.toString();
         }
         return String.valueOf(finalNumber);
